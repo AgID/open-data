@@ -1,0 +1,132 @@
+<rdf:RDF
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:locn="http://www.w3.org/ns/locn#"
+    xmlns:hydra="http://www.w3.org/ns/hydra/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gsp="http://www.opengis.net/ont/geosparql#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <dcatapit:Catalog rdf:about="https://www.dati.gov.it">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <dct:title xml:lang="it">SUAP/SUE - Open Data</dct:title>
+        <dct:title xml:lang="en">SUAP/SUE - Open Data</dct:title>
+        <dct:description xml:lang="it">Open Data relativi a SUAP e SUE</dct:description>
+        <dct:publisher>
+            <dcatapit:Agent rdf:about="https://agid.gov.it">
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                <dct:identifier>agid</dct:identifier>
+                <foaf:name>Agenzia per l'Italia Digitale - Supporto SUAP</foaf:name>
+            </dcatapit:Agent>
+        </dct:publisher>
+        <foaf:homepage rdf:resource="https://www.dati.gov.it/"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-14</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-14</dct:issued>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcat:themeTaxonomy>
+          <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+            <dct:title xml:lang="it">Il Vocabolario Data Theme</dct:title>
+          </skos:ConceptScheme>
+        </dcat:themeTaxonomy>
+        <dcat:dataset rdf:resource="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv"/>
+    </dcatapit:Catalog>
+
+    <dcatapit:Dataset rdf:about="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+
+        <dct:title xml:lang="it">Open Data SUAP/SUE</dct:title>
+        <dct:title xml:lang="en">Open Data SUAP/SUE</dct:title>
+
+        <dct:description xml:lang="it">Lista delle richieste di supporto tecnico ricevute dalle amministrazioni impegnate nel percorso di adeguamento degli sportelli SUAP.</dct:description>
+        <dct:description xml:lang="en">List of technical support requests received from public administrations engaged in the process of upgrading SUAP.</dct:description>
+
+        <dct:identifier>agid:open-data-suap-sue</dct:identifier>
+
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+
+        <dcat:landingPage rdf:resource="https://www.agid.gov.it/it/agenzia/attuazione-misure-pnrr/suapsue-sportello-unico-attivita-produttive-ledilizia"/>
+
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/BIMONTHLY"/>
+
+        <dcat:contactPoint rdf:resource="https://agid.gov.it"/>
+        <dct:publisher>
+            <dcatapit:Agent rdf:about="https://agid.gov.it">
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                <dct:identifier>agid</dct:identifier>
+                <foaf:name>Agenzia per l'Italia Digitale</foaf:name>
+            </dcatapit:Agent>
+        </dct:publisher>
+
+        <dct:rightsHolder>
+            <dcatapit:Agent rdf:about="https://agid.gov.it">
+                <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+                <dct:identifier>agid</dct:identifier>
+                <foaf:name>Agenzia per l'Italia Digitale</foaf:name>
+            </dcatapit:Agent>
+        </dct:rightsHolder>
+
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-14</dct:modified>
+
+        <dcat:keyword>SUAP</dcat:keyword>
+        <dcat:keyword>Specifiche Tecniche</dcat:keyword>
+        <dcat:keyword>Misura 2.2.3</dcat:keyword>
+        <dcat:keyword>PNRR</dcat:keyword>
+
+        <dcat:distribution rdf:resource="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv"/>
+        <dct:subject rdf:resource="http://eurovoc.europa.eu/100204"/>
+    </dcatapit:Dataset>
+
+
+    <dcatapit:Distribution rdf:about="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+
+        <dct:title xml:lang="it">Open Data SUAP/SUE - Formato CSV</dct:title>
+        <dct:title xml:lang="en">Open Data SUAP/SUE - CSV format</dct:title>
+
+        <dct:description xml:lang="it">Lista delle richieste di supporto tecnico ricevute dalle amministrazioni impegnate nel percorso di adeguamento degli sportelli SUAP in formato CSV.</dct:description>
+        <dct:description xml:lang="en">List of technical support requests received from public administrations engaged in the process of upgrading SUAP in CSV format.</dct:description>
+
+        <dct:license>
+            <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40">
+                <rdf:type rdf:resource="dct:LicenseDocument"/>
+                <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+                <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+            </dcatapit:LicenseDocument>
+        </dct:license>
+
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+
+        <dcat:accessURL rdf:resource="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv"/>
+
+        <dcat:downloadURL rdf:resource="https://github.com/AgID/open-data/raw/refs/heads/main/SUAP_SUE_Richieste_di_Supporto_Open_Data.csv"/>
+
+    </dcatapit:Distribution>
+
+    <dcatapit:Organization rdf:about="https://agid.gov.it">
+        <rdf:type rdf:resource="vcard:Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <rdf:type rdf:resource="vcard:Kind"/>
+        <vcard:fn>Agenzia per l'Italia Digitale</vcard:fn>
+        <vcard:hasEmail rdf:resource="supportosuap@agid.gov.it"/>
+    </dcatapit:Organization>
+
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+      <skos:prefLabel xml:lang="it">Governo e settore pubblico</skos:prefLabel>
+    </skos:Concept>
+
+</rdf:RDF>
