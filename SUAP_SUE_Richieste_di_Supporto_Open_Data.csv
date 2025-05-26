@@ -61,10 +61,10 @@ Per ogni approfondimento di merito si suggerisce di rivolgersi direttamente ai r
 Il repository di riferimento degli schemi XSD afferenti ai procedimenti del SUAP ci risulta essere: https://github.com/italia/moduli-pa/tree/master/Moduli_PA/SUAPAl. In questo repository gli schemi sono fermi a 5 anni fa. Ci confermate che il repository sia questo? In caso negativo ci indicate il repository corretto?
 Oltre al repository degli schemi XSD, avete un repository dei facsimili delle modulistiche in formato compilatore oriented. In word, pdf o altro.";"Si evidenzia che il repository Moduli_PA/SUAPA è stato usato nell’ambito dell’Agenda per la Semplificazione 2020-2026 e 2020-2023 negli anni passati, e riporta gli XSD approvati negli Accordi della Conferenza Unificata per l'approvazione dei moduli unificati e standardizzati in materia di attività edilizia e commerciali e assimilate. Si evidenzia che gli stessi XSD sono stati utilizzati per il primo popolamento del Catalogo SSU.
 Per ogni approfondimento in merito a dove recuperate i fac-simile della modulistica, si suggerisce di rivolgersi direttamente ai referenti del Dipartimento della Funzione Pubblica.";n.a.
-12;n.a.;"Se fosse confermato il repository degli XSD al punto precedente, tra questi non compare l’AUA (Autorizzazione Unica Ambientale). Essendo questo tra i procedimenti di interesse di Arpa, ed è in capo al SUAP, vi chiediamo come si intende gestire questa tipologia di procedimento.
-A tal proposito Arpa risulta interessata anche ad altre tipologie di procedimenti che non ritroviamo nella lista, come ad esempio le “SCIA stazione radiobase”. In generale con l’introduzione delle nuove modalità operativa e l’obbligo di trasferire le pratiche vi interoperabilità, e non più via PEC, come si intende gestire i procedimenti per i quali non è ancora definito uno schema XSD e non saranno censiti come procedimenti nell’SSU?";"Considerata la natura della domanda fuori dal perimetro tecnico gestionale di AgID, si riporta la risposta condivisa dal Dipartimento della Funzione Pubblica:
+12;n.a.;"Se fosse confermato il repository degli XSD al punto precedente, tra questi non compare l’AUA (Autorizzazione Unica Ambientale). Essendo questo tra i procedimenti di interesse di XXX, ed è in capo al SUAP, vi chiediamo come si intende gestire questa tipologia di procedimento.
+A tal proposito XXX risulta interessata anche ad altre tipologie di procedimenti che non ritroviamo nella lista, come ad esempio le “SCIA stazione radiobase”. In generale con l’introduzione delle nuove modalità operativa e l’obbligo di trasferire le pratiche vi interoperabilità, e non più via PEC, come si intende gestire i procedimenti per i quali non è ancora definito uno schema XSD e non saranno censiti come procedimenti nell’SSU?";"Considerata la natura della domanda fuori dal perimetro tecnico gestionale di AgID, si riporta la risposta condivisa dal Dipartimento della Funzione Pubblica:
 Confermiamo che nel repository nativamente verranno inseriti tutti i moduli strutturati nazionali o approvati in Conferenza Stato-Regioni. Tuttavia, si evidenzia che, per alcune specifiche modulistiche, potrebbero esserci delle personalizzazioni territoriali, le quali potranno comunque essere caricate sul Catalogo.
-Per quanto riguarda l'Autorizzazione Unica Ambientale (AUA), invece, non esiste in effetti un modello strutturato a livello nazionale. Tuttavia, la Lombardia ha definito un XSD strutturato. Pertanto, Infocamere, in qualità di gestore, provvederà a caricare tali modelli sul Catalogo. Per qualsiasi ulteriore questione sul tema, si propone di fare un allineamento insieme, con la presenza di Infocamere.
+Per quanto riguarda l'Autorizzazione Unica Ambientale (AUA), invece, non esiste in effetti un modello strutturato a livello nazionale. Tuttavia, la XXX ha definito un XSD strutturato. Pertanto, Infocamere, in qualità di gestore, provvederà a caricare tali modelli sul Catalogo. Per qualsiasi ulteriore questione sul tema, si propone di fare un allineamento insieme, con la presenza di Infocamere.
 Per ogni approfondimento di merito si suggerisce di rivolgersi direttamente ai referenti del Dipartimento della Funzione Pubblica.";n.a.
 13;4796cc1496b24772965f7f7e37d3a341;"Nel sequence diagram che descrive il processo di Autorizzazione, il primo passo che compie il BO SUAP verso l'ET è una chiamata al servizio notify, ma solo se è stata indetta una CDSS dal SUAP.
 L'ET da dove recupera i resource_id per richiedere poi al BO i vari documenti relativi alla pratica (SUAP.XML, MDA.XML e ricevuta.XML)?
@@ -614,7 +614,7 @@ Adottando questa strategia, durante il tempo di integrazione non vengono persi i
 
 All'interno dell'oggetto Times sono riportati diversi attributi che definiscono il massimo numero di giorni concessi per effettuare determinate azioni. In questo caso particolare, bisogna soffermarsi sull'attributo ""max_gg_concl_send"", che definisce il numero di giorni limite a partire dall'avvio del procedimento per l'inoltro delle conclusioni da parte degli enti terzi. Le Specifiche Tecniche non prevedono un timer dal momento in cui viene inviata l'instanza all'ET ma viene definito a monte il giorno limite entro il quale tutti gli ET devono inviare il loro parere al BO. 
 Assumendo quanto indicato precedentemente, non è previsto un ""reset"" dei tempi concessi all'ET per inoltrare il nuovo esito a seguito di una ricezione di integrazione.";n.a.
-62;56228c2a75bf487199bd44116a0e50ca;"In ambiente di Collaudo abbiamo provato a fare l'inserimento di un nuovo procedimento per Regione Toscana. Compilati tutti i campi obbligatori e agganciato un modulo già esistente, se clicchiamo su ""conferma procedimento"" appare un messaggio di errore che riporta ""Errore procedimento già presente con questa data"" e quindi non riusciamo a salvare.";"La presente richiesta chiede un supporto circa l'inserimento di un procedimento all'interno del Catalogo SSU. Data la natura della richiesta, la invitiamo a contattare InfoCamere per richiedere supporto in merito alle funzionalità ed eventuali bug del sistema del Catalogo SSU rilasciato in ambiente di Collaudo.
+62;56228c2a75bf487199bd44116a0e50ca;"In ambiente di Collaudo abbiamo provato a fare l'inserimento di un nuovo procedimento per Regione XXX. Compilati tutti i campi obbligatori e agganciato un modulo già esistente, se clicchiamo su ""conferma procedimento"" appare un messaggio di errore che riporta ""Errore procedimento già presente con questa data"" e quindi non riusciamo a salvare.";"La presente richiesta chiede un supporto circa l'inserimento di un procedimento all'interno del Catalogo SSU. Data la natura della richiesta, la invitiamo a contattare InfoCamere per richiedere supporto in merito alle funzionalità ed eventuali bug del sistema del Catalogo SSU rilasciato in ambiente di Collaudo.
 
 Qualora vi sia la necessità di ulteriori chiarimenti, la invitiamo a contattarci tramite il canale di messaggistica del ticket.
 Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente ticket sarà chiuso automaticamente dal sistema entro 7 giorni lavorativi.";n.a.
@@ -1518,7 +1518,7 @@ Assumendo quanto indicato precedentemente, non è previsto un ""reset"" dei temp
 2) API da invocare al fine di popolare la sezione “form/xsd” per moduli non strutturati per cui non esiste riferimento a un XSD;
 3) API da invocare al fine di popolare la sezione“administrative_regime” che prevede id e version;
 4) come individuare la url dell’e-service fo_to_bo da invocare. E’ possibile individuarlo dinamicamenteo ogni componente fruitore deve avere una mappa di routing e in quel caso come può essere creata e mantenuta aggiornata considerando che è il CatalogoSSU a detenere l’anagrafica delle componentiattive;
-5) API da invocare al fine di avere tutti i procedimenti attivi su un comune (p.es. Comune di Firenze):deve essere prima richiesto tutti i procedimenti impostando la municipality come Regione Toscana(che restituisce tutti i procedimenti nazionali e regionali), poi deve essere richiesto tutti i procedimenti impostando la municipality del comune (che restituisce i procedimenti locali). Come recuperare l’informazione che un procedimento è la versione locale di un procedimento regionale/nazionale che quindi deve essere sovrascritto?""";"Un FO al fine di popolare un InstanceDescriptor, prima di inviarlo al BO, deve effettuare la sequenza di chiamate come indicate di seguito:
+5) API da invocare al fine di avere tutti i procedimenti attivi su un comune (p.es. Comune di XXX):deve essere prima richiesto tutti i procedimenti impostando la municipality come Regione XXX(che restituisce tutti i procedimenti nazionali e regionali), poi deve essere richiesto tutti i procedimenti impostando la municipality del comune (che restituisce i procedimenti locali). Come recuperare l’informazione che un procedimento è la versione locale di un procedimento regionale/nazionale che quindi deve essere sovrascritto?""";"Un FO al fine di popolare un InstanceDescriptor, prima di inviarlo al BO, deve effettuare la sequenza di chiamate come indicate di seguito:
  - Recupero delle Tipologie ed Eventi della vita dei procedimenti di un comune: /typologies-lifeevents?municipality={comune}
  - Recupero dei procedimenti SUAP: /proceedings?typology={typology}&lifeevent={lifeevent}&municipality={comune}
  - Recupero delle fattispecie: /proceeding/{proceeding_id}/{proceeding_version}/usecase-proceedings
@@ -2093,7 +2093,7 @@ Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente tick
 143;aa185760795545998bf3f187e95c8c59;"Sottoponiamo alla vostra cortese attenzione il quesito pervenutoci dalla software house XXX:
 Fattispecie, FrontOffice, cittadino e ufficio SUAP. Qualora emerga come soluzione auspicabile quella della proliferazione delle fattispecie per gestire diverse casistiche avremmo una situazione in cui il FrontOffice dovrebbe essere il più trasparente possibile per evitare ritardi, errori e interpretazioni differenti fra FO e FO di un unico procedimento non rischiamo che il lavoro di “smistamento” prima affidato all’ufficio SUAP finisca sul cittadino che si trova a dover scegliere fra le varie fattispecie quella che esattamente si sposa con la sua situazione?
 
-Esempio: Comune di Ancona, un’attività con somministrazione di bevande potrebbe avere queste situazioni:
+Esempio: Comune di XXX, un’attività con somministrazione di bevande potrebbe avere queste situazioni:
 • Richiesta Parco Naturale del Conero: nel caso in cui si trovi o meno all’interno del Parco
 • Richiesta Demanio Marittimo: nel caso in cui si trovi o meno nei pressi della spiaggia
 • Richiesta Autorità Portuale: nel caso in cui si trovi o meno nei pressi delle banchine
@@ -3074,29 +3074,29 @@ Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente tick
 Qualora vi sia la necessità di ulteriori chiarimenti, la invitiamo a contattarci tramite il canale di messaggistica del ticket.
 Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente ticket sarà chiuso automaticamente dal sistema entro 7 giorni lavorativi.";n.a.
 190;cfda2c9ebef540b896b6aaf675771f83;"Vorrei da voi una conferma o smentita sui possibili scenari che possono riguardare un pratica di tipo SCIA o AUTORIZZAZIONE.
-Questo perchè dovendo gestire l'ET di un comune grande ad articolato come quello di Torino, devo essere sicuro di aver intercettato tutta la complessità possibile.
+Questo perchè dovendo gestire l'ET di un comune grande ad articolato, devo essere sicuro di aver intercettato tutta la complessità possibile.
 
-SCENARIO 1) pratica indirizzata all'ET ""comune di Torino"".
+SCENARIO 1) pratica indirizzata all'ET ""comune di XXX"".
 -> RISULTATO:
 un unico esito inviato al BO SUAP.
 
-SCENARIO 2) pratica indirizzata all'ET ""comune di Torino"", che dovrà inoltrarla al suo interno su più uffici competenti (es: commercio, edilizia, ambiente, ecc.) per avere un parere da ognuno.
+SCENARIO 2) pratica indirizzata all'ET ""comune di XXX"", che dovrà inoltrarla al suo interno su più uffici competenti (es: commercio, edilizia, ambiente, ecc.) per avere un parere da ognuno.
 -> RISULTATO:
 1..n pareri interni all'ET -> sintesi interna -> un unico esito inviato al BO SUAP.
 
-SCENARIO 3) pratica indirizzata a un ET principale censito nel Catalogo SSU diverso da ""comune di Torino"", ad esempio una delle ASL di Torino, e all'ET secondario ""comune di Torino"" che deve quindi fornire un parere.
+SCENARIO 3) pratica indirizzata a un ET principale censito nel Catalogo SSU diverso da ""comune di XXX"", ad esempio una delle ASL di XXX, e all'ET secondario ""comune di XXX"" che deve quindi fornire un parere.
 -> RISULTATO:
 un esito dall'ET principale inviato al BO SUAP;
-un esito dall'ET ""comune di Torino"" inviato al BO SUAP.
+un esito dall'ET ""comune di XXX"" inviato al BO SUAP.
 
-SCENARIO 4) pratica indirizzata a un ET principale censito nel Catalogo SSU diverso da ""comune di Torino"", e all'ET secondario ""comune di Torino"" che deve fornire un parere, il quale dovrà inoltrare la pratica su più uffici competenti per avere un parere da ognuno.
+SCENARIO 4) pratica indirizzata a un ET principale censito nel Catalogo SSU diverso da ""comune di XXX"", e all'ET secondario ""comune di XXX"" che deve fornire un parere, il quale dovrà inoltrare la pratica su più uffici competenti per avere un parere da ognuno.
 -> RISULTATO:
 un parere dall'ET principale inviato al BO SUAP;
 1..n pareri interni all'ET -> sintesi interna -> unico esito inviato al BO SUAP.";"SCENARIO 1) Corretto
 
 SCENARIO 2) Corretto
 Assunti:
-  - l'ET censito a Catalogo è uno solo (Comune di Torino) e l'organizzazione interna viene gestita extra-sistema
+  - l'ET censito a Catalogo è uno solo (Comune di XXX) e l'organizzazione interna viene gestita extra-sistema
   - gli n-esiti interni all'ET non sono tracciati, quindi viene caricato nel sistema ET SUAP solamente l'esito che viene inviato al BO
 
 SCENARIO 3) Corretto
@@ -3189,7 +3189,7 @@ Nell'instance descriptor, sia le fattispecie primarie che secondarie saranno pre
 Qualora vi sia la necessità di ulteriori chiarimenti, la invitiamo a contattarci tramite il canale di messaggistica del ticket.
 Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente ticket sarà chiuso automaticamente dal sistema entro 7 giorni lavorativi.
 ";"Richiedente
-Quindi se in usecase_proceedings \ competent_administration l'oggetto ipacode corrisponde a quello dell'ET di interesse, esempio il comune di Torino, allora la fattispecie collegata sarà di competenza del comune. Corretto?
+Quindi se in usecase_proceedings \ competent_administration l'oggetto ipacode corrisponde a quello dell'ET di interesse, esempio il comune di XXX, allora la fattispecie collegata sarà di competenza del comune. Corretto?
 Però se possono esserci più fattispecie, è possibile che più di una sia di competenza dello stesso ET e che quindi vadano gestite in parallelo?
 Se è così, allora la cosa va in conflitto rispetto alla risposta a una mia domanda passata, che riporto sotto:
 
@@ -3281,7 +3281,7 @@ Questo per noi è fondamentale per poter intervenire sulle modulistiche per cont
 
 Nel caso stiate procedendo ad aggiornare gli schemi, vorremmo sapere se saranno adeguati quelli del 2017 presenti su github, o se li state rivedendo in formato Entity Oriented.
 
-Inutile dire che quest'ultima soluzione è di fortissimo impatto e richiederebbe tempi di adeguamento non compatibili con la data di messa a disposizione da parte di Regione Lombardia del 09 maggio 2025.";"Si precisa che l'aggiornamento delle modulistiche non è un compito in carico ad AgID, pertanto, la invitiamo ad aprire la segnalazione al Dipartimento della funzione pubblica.
+Inutile dire che quest'ultima soluzione è di fortissimo impatto e richiederebbe tempi di adeguamento non compatibili con la data di messa a disposizione da parte di Regione XXX del 09 maggio 2025.";"Si precisa che l'aggiornamento delle modulistiche non è un compito in carico ad AgID, pertanto, la invitiamo ad aprire la segnalazione al Dipartimento della funzione pubblica.
 
 Qualora vi sia la necessità di ulteriori chiarimenti, la invitiamo a contattarci tramite il canale di messaggistica del ticket.
 Le comunichiamo inoltre che, in assenza di ulteriori richieste, il presente ticket sarà chiuso automaticamente dal sistema entro 7 giorni lavorativi.";"Richiedente
